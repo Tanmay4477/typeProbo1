@@ -1,0 +1,25 @@
+{
+  "name": "engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "watch": "nodemon src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/redis": "^4.0.11",
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0",
+    "tsc-node": "^0.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
